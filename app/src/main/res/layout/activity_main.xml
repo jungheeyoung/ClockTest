@@ -10,6 +10,12 @@
     tools:context="kr.hs.emirim.young24.clocktest.MainActivity"
     android:orientation="vertical"
     >
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format="Timer: %s"
+        android:gravity="center"
+        />
     <AnalogClock
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
